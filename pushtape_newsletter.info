@@ -1,0 +1,13 @@
+name = Pushtape Newsletter
+core = 7.x
+package = Pushtape
+version = 7.x-1.0-dev
+project = pushtape_newsletter
+dependencies[] = features
+dependencies[] = simplenews
+dependencies[] = taxonomy
+features[features_api][] = api:1
+features[field][] = node-simplenews-body
+features[field][] = node-simplenews-field_simplenews_term
+features[node][] = simplenews
+features[taxonomy][] = newsletter
