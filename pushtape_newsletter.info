@@ -5,6 +5,7 @@ php = 5.2.4
 version = 7.x-1.0-alpha3
 project = pushtape_newsletter
 dependencies[] = features
+dependencies[] = options
 dependencies[] = simplenews
 dependencies[] = strongarm
 dependencies[] = taxonomy
