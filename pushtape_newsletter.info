@@ -1,11 +1,16 @@
 name = Pushtape Newsletter
 core = 7.x
 package = Pushtape
-version = 7.x-1.0-dev
+php = 5.2.4
+version = 7.x-1.0-alpha3
 project = pushtape_newsletter
 dependencies[] = features
 dependencies[] = simplenews
+dependencies[] = strongarm
 dependencies[] = taxonomy
+dependencies[] = text
+datestamp = 1364847782
+features[ctools][] = strongarm:strongarm:1
 features[features_api][] = api:1
 features[field][] = node-simplenews-body
 features[field][] = node-simplenews-field_simplenews_term
