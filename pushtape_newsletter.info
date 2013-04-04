@@ -17,3 +17,4 @@ features[field][] = node-simplenews-body
 features[field][] = node-simplenews-field_simplenews_term
 features[node][] = simplenews
 features[taxonomy][] = newsletter
+features[variable][] = panelizer_defaults_node_simplenews
