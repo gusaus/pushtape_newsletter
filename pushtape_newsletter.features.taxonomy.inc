@@ -13,9 +13,9 @@ function pushtape_newsletter_taxonomy_default_vocabularies() {
       'name' => 'Newsletter',
       'machine_name' => 'newsletter',
       'description' => 'Simplenews newsletter categories.',
-      'hierarchy' => '0',
+      'hierarchy' => 0,
       'module' => 'simplenews',
-      'weight' => '0',
+      'weight' => 0,
     ),
   );
 }
